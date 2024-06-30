@@ -165,3 +165,91 @@ footer {
     display: block;
     unicode-bidi: isolate;
 }
+index-wrap-left {
+    grid-area: side;
+}
+.ct-home-box {
+    margin-bottom: 2rem;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: var(--br);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+ct-latest-any-bottom a {
+    font-weight: 550;
+}
+
+.ct-latest-bottom a, .ct-latest-any-bottom a, .ct-archive-link a, .ct-feat-bottom a, a.ct-commenttime, .ct-commentreply a, .ct-commentedit a, .ct-cssref-widget__footer a {
+    white-space: nowrap;
+    vertical-align: middle;}
+
+    .ct-home-box--nl {
+        background: #c5ccf7;
+        box-shadow: 0px 10px 0px -5px var(--color-bg), 0px 11px 0px -5px rgba(0, 0, 0, 0.4);
+    }
+    
+    .ct-home-box {
+        margin-bottom: 2rem;
+        background: #fff;
+        padding: 1.5rem;
+        border-radius: var(--br);
+        border: 1px solid rgba(0, 0, 0, 0.3);
+    }
+    .ct-home-box p {
+        line-height: 1.5;
+        margin-bottom: 1rem;
+    }
+    strong {
+        font-weight: 600;
+    }
+    body #mc_embed_signup {
+        background: transparent;
+    }
+    .ct-latest-any-bottom {
+        clear: both;
+        margin-top: 1.5rem;
+    }
+    .ct-footer {
+        position: relative;
+        bottom: 0px;
+        padding: 5rem 0 0;
+        width: 100%;
+        background: var(--color-bg-alt);
+        border-radius: var(--br);
+    }
+    .ct-footer .ct-inner {
+        overflow: hidden;
+        margin: 0 auto;
+        display: flex;
+        padding-bottom: 5rem;
+    }
+    
+    .ct-inner {
+        position: relative;
+        margin: 0 auto;
+        padding: 0px 2rem;
+        max-width: 1350px;
+    }
+    .ct-footer__column:first-of-type {
+        margin-right: 6rem;
+    }
+    .ct-footer nav {
+        height: 100%;
+        display: flex;
+    }
+    .ct-footer h5 {
+        letter-spacing: 0;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    .ct-footer__column--credits {
+        margin-left: auto;
+        max-width: 11rem;
+    }
+    .ct-patron-box {
+        position: absolute;
+        bottom: 0;
+        z-index: 10000;
+        left: auto;
+    }
+
