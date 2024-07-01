@@ -6,6 +6,51 @@
     white-space: nowrap;
     font-weight: 600;
 }
+@media screen and (max-width: 1075px) {
+    .ct-nav-wrapper {
+        padding: 1rem;
+        min-width: 0px;
+        text-align: center;
+    }
+}
+.ct-nav-main ul li {
+    margin: 0.5rem 1rem;
+    text-transform: lowercase;
+}
+@media screen and (max-width: 1075px) {
+    .ct-search {
+        float: none;
+        margin: 15px auto;
+        width: 262px;
+        height: 34px;
+    }
+}
+
+.ct-search {
+    position: relative;
+    z-index: 100000;
+    float: right;
+    width: 34px;
+    height: 34px;
+}
+.ct-header {
+    position: relative;
+    z-index: 999;
+    padding: 1.5rem 0 6rem;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+*, *::before, *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header {
+    display: block;
+    unicode-bidi: isolate;
+}
 
 ul {
     list-style: none;
@@ -86,6 +131,24 @@ a img {
 img {
     max-width: 100%;
     height: auto;
+}
+.ct-latest-thumb {
+    float: left;
+    position: relative;
+    z-index: 10;
+    margin: 0 1rem 1rem 0;
+}
+.ct-latest-title {
+    font-size: 1.25rem;
+    padding-top: 0.25rem;
+    margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.3;
+    letter-spacing: -0.045rem;
+    font-weight: 600;
+    text-wrap: balance;
 }
 ct-latest-thumb a {
     display: block;
@@ -232,7 +295,13 @@ ct-latest-any-bottom a {
         display: flex;
         padding-bottom: 5rem;
     }
-    
+    .ct-footer__column:not(.ct-footer__column--credits) ul {
+        margin-right: 3rem;
+    }
+    .ct-footer__column:not(.ct-footer__column--credits) ul li {
+        margin: 0.5rem 0;
+        text-transform: lowercase;
+    }
     .ct-inner {
         position: relative;
         margin: 0 auto;
@@ -273,6 +342,10 @@ ct-latest-any-bottom a {
         width: auto;
         background: none;
         min-height: 250px;
+    }
+    element.style {
+        display: flex;
+        flex-direction: column;
     }
     .ct-sidebar .cos {
         border-radius: var(--br);
@@ -319,4 +392,28 @@ ct-latest-any-bottom a {
         width: auto;
         background: none;
         min-height: 250px;
+    }
+    element.style {
+        background: #b0a9a9;
+        width: 100%;
+        height: 1px;
+        margin: 4rem 0 3rem;
+    }
+    @media screen and (max-width: 1075px) {
+        #bsap_1298539 {
+            margin: 1.5rem auto 2.5rem;
+        }
+    }
+    footer {
+        display: block;
+        unicode-bidi: isolate;
+    }
+    .ct-patron-box {
+        position: absolute;
+        bottom: 0;
+        z-index: 10000;
+        left: auto;
+    }
+    .ct-home-box h3 {
+        margin-bottom: 2rem;
     }
